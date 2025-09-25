@@ -1,17 +1,17 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
-import { 
-  Code, 
-  Eye, 
-  Lock, 
-  Users, 
-  GitBranch, 
+import {
+  Code,
+  Eye,
+  Lock,
+  Users,
+  GitBranch,
   Zap,
   ArrowRight,
   CheckCircle,
   AlertTriangle,
-  Layers
+  Layers,
 } from "lucide-react";
 
 /**
@@ -33,7 +33,7 @@ export default function SyntaxPage() {
             </span>
           </h1>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Une syntaxe concise et puissante, inspirée de TypeScript mais optimisée 
+            Une syntaxe concise et puissante, inspirée de TypeScript mais optimisée
             pour la conception architecturale et l'approche conception-first.
           </p>
         </div>
@@ -102,7 +102,7 @@ export default function SyntaxPage() {
             <div>
               <h3 className="text-2xl font-semibold mb-4">Contrôle d'Accès Granulaire</h3>
               <p className="text-muted-foreground mb-6">
-                Velvet propose un système de visibilité explicite avec des symboles clairs 
+                Velvet propose un système de visibilité explicite avec des symboles clairs
                 pour chaque niveau d'accès.
               </p>
               <div className="space-y-4">
@@ -334,7 +334,7 @@ empty Enemy : Personnage`}
                 </pre>
                 <div className="mt-4 p-3 bg-blue-50 dark:bg-blue-950/20 border border-blue-200 dark:border-blue-800 rounded-lg">
                   <p className="text-sm text-blue-800 dark:text-blue-200">
-                    Permet d'utiliser Protagonist ou Enemy comme des classes différentes 
+                    Permet d'utiliser Protagonist ou Enemy comme des classes différentes
                     sans générer de fichier séparé.
                   </p>
                 </div>
@@ -480,15 +480,15 @@ empty Enemy : Personnage`}
             </CardHeader>
             <CardContent>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <a 
-                  href="/examples" 
+                <a
+                  href="/examples"
                   className="inline-flex items-center justify-center px-6 py-3 bg-green-600 text-white rounded-lg hover:bg-green-700 transition-colors"
                 >
                   Voir les exemples
                   <ArrowRight className="ml-2 h-4 w-4" />
                 </a>
-                <a 
-                  href="/getting-started" 
+                <a
+                  href="/getting-started"
                   className="inline-flex items-center justify-center px-6 py-3 border border-green-600 text-green-600 rounded-lg hover:bg-green-50 transition-colors"
                 >
                   Guide de démarrage

@@ -1,15 +1,15 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
-import { 
-  Lightbulb, 
-  FileText, 
-  Code, 
-  GitBranch, 
-  Shield, 
+import {
+  Lightbulb,
+  FileText,
+  Code,
+  GitBranch,
+  Shield,
   Zap,
   CheckCircle,
-  AlertTriangle
+  AlertTriangle,
 } from "lucide-react";
 
 /**
@@ -31,7 +31,7 @@ export default function ConceptPage() {
             </span>
           </h1>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Velvet révolutionne la programmation en plaçant la <strong>conception</strong> 
+            Velvet révolutionne la programmation en plaçant la <strong>conception</strong>
             au cœur du processus de développement. Concevez d'abord, codez ensuite.
           </p>
         </div>
@@ -42,7 +42,7 @@ export default function ConceptPage() {
             <div>
               <h2 className="text-3xl font-bold mb-6">💡 Pourquoi Conception-First ?</h2>
               <p className="text-lg text-muted-foreground mb-6">
-                Le terme <em>Conception-first</em> peut paraître redondant, mais justement : 
+                Le terme <em>Conception-first</em> peut paraître redondant, mais justement :
                 trop de développeurs l'esquivent pour "aller plus vite"… et finissent dans la mouise.
               </p>
               <div className="bg-yellow-50 dark:bg-yellow-950/20 border border-yellow-200 dark:border-yellow-800 rounded-lg p-6">
@@ -225,7 +225,7 @@ export default function ConceptPage() {
               </AccordionTrigger>
               <AccordionContent>
                 <p className="text-muted-foreground">
-                  En définissant votre architecture avant de coder, vous évitez les refactorings 
+                  En définissant votre architecture avant de coder, vous évitez les refactorings
                   coûteux et maintenez une vision claire de votre projet.
                 </p>
               </AccordionContent>
@@ -240,7 +240,7 @@ export default function ConceptPage() {
               </AccordionTrigger>
               <AccordionContent>
                 <p className="text-muted-foreground">
-                  Le scaffold automatique vous fait gagner du temps en générant le code boilerplate, 
+                  Le scaffold automatique vous fait gagner du temps en générant le code boilerplate,
                   vous permettant de vous concentrer sur la logique métier.
                 </p>
               </AccordionContent>
@@ -255,7 +255,7 @@ export default function ConceptPage() {
               </AccordionTrigger>
               <AccordionContent>
                 <p className="text-muted-foreground">
-                  La validation automatique détecte les incohérences entre votre schéma et votre code, 
+                  La validation automatique détecte les incohérences entre votre schéma et votre code,
                   réduisant les bugs et améliorant la qualité.
                 </p>
               </AccordionContent>
@@ -270,7 +270,7 @@ export default function ConceptPage() {
               </AccordionTrigger>
               <AccordionContent>
                 <p className="text-muted-foreground">
-                  Les modifications d'architecture sont détectées automatiquement, 
+                  Les modifications d'architecture sont détectées automatiquement,
                   facilitant la maintenance et l'évolution de votre code.
                 </p>
               </AccordionContent>
@@ -289,14 +289,14 @@ export default function ConceptPage() {
             </CardHeader>
             <CardContent>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <a 
-                  href="/architecture" 
+                <a
+                  href="/architecture"
                   className="inline-flex items-center justify-center px-6 py-3 bg-purple-600 text-white rounded-lg hover:bg-purple-700 transition-colors"
                 >
                   Découvrir l'architecture
                 </a>
-                <a 
-                  href="/syntax" 
+                <a
+                  href="/syntax"
                   className="inline-flex items-center justify-center px-6 py-3 border border-purple-600 text-purple-600 rounded-lg hover:bg-purple-50 transition-colors"
                 >
                   Voir la syntaxe

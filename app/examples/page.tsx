@@ -3,16 +3,16 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
-import { 
-  Code, 
-  Gamepad2, 
-  ShoppingCart, 
-  Users, 
+import {
+  Code,
+  Gamepad2,
+  ShoppingCart,
+  Users,
   Database,
   Play,
   Copy,
   Check,
-  CheckCircle
+  CheckCircle,
 } from "lucide-react";
 import { useState } from "react";
 
@@ -43,7 +43,7 @@ export default function ExamplesPage() {
             </span>
           </h1>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Découvrez Velvet à travers des exemples concrets et pratiques. 
+            Découvrez Velvet à travers des exemples concrets et pratiques.
             Du jeu vidéo à l'e-commerce, explorez différents cas d'usage.
           </p>
         </div>
@@ -835,15 +835,15 @@ export default function ExamplesPage() {
             </CardHeader>
             <CardContent>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <a 
-                  href="/getting-started" 
+                <a
+                  href="/getting-started"
                   className="inline-flex items-center justify-center px-6 py-3 bg-orange-600 text-white rounded-lg hover:bg-orange-700 transition-colors"
                 >
                   <Play className="mr-2 h-4 w-4" />
                   Guide de démarrage
                 </a>
-                <a 
-                  href="/tutorials" 
+                <a
+                  href="/tutorials"
                   className="inline-flex items-center justify-center px-6 py-3 border border-orange-600 text-orange-600 rounded-lg hover:bg-orange-50 transition-colors"
                 >
                   Tutoriels interactifs

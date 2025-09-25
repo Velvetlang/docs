@@ -19,7 +19,7 @@ export function Footer() {
               <span className="font-bold text-xl">Velvet</span>
             </div>
             <p className="text-sm text-muted-foreground">
-              Un langage de programmation conçu pour la conception-first, 
+              Un langage de programmation conçu pour la conception-first,
               avec une syntaxe concise et des fonctionnalités avancées.
             </p>
           </div>
@@ -77,14 +77,14 @@ export function Footer() {
           <div className="space-y-4">
             <h3 className="font-semibold">Communauté</h3>
             <div className="flex space-x-4">
-              <Link 
-                href="https://github.com/velvet-lang" 
+              <Link
+                href="https://github.com/velvet-lang"
                 className="text-muted-foreground hover:text-foreground transition-colors"
               >
                 <Github className="h-5 w-5" />
               </Link>
-              <Link 
-                href="https://twitter.com/velvet_lang" 
+              <Link
+                href="https://twitter.com/velvet_lang"
                 className="text-muted-foreground hover:text-foreground transition-colors"
               >
                 <Twitter className="h-5 w-5" />

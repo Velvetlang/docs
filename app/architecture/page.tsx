@@ -1,16 +1,16 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
-import { 
-  Building, 
-  Code, 
-  GitBranch, 
-  Zap, 
-  Shield, 
+import {
+  Building,
+  Code,
+  GitBranch,
+  Zap,
+  Shield,
   Layers,
   ArrowRight,
   CheckCircle,
-  AlertTriangle
+  AlertTriangle,
 } from "lucide-react";
 
 /**
@@ -32,7 +32,7 @@ export default function ArchitecturePage() {
             </span>
           </h1>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Découvrez comment Velvet structure vos projets avec un système de build 
+            Découvrez comment Velvet structure vos projets avec un système de build
             intelligent et des fonctionnalités architecturales avancées.
           </p>
         </div>
@@ -291,7 +291,7 @@ export default function ArchitecturePage() {
                 </Tabs>
                 <div className="mt-4 p-4 bg-green-50 dark:bg-green-950/20 border border-green-200 dark:border-green-800 rounded-lg">
                   <p className="text-sm text-green-800 dark:text-green-200">
-                    <strong>Résultat :</strong> Personnage implémente automatiquement CanAttack 
+                    <strong>Résultat :</strong> Personnage implémente automatiquement CanAttack
                     et délègue tout le comportement nécessaire aux fonctions d'Attack.
                   </p>
                 </div>
@@ -373,15 +373,15 @@ export default function ArchitecturePage() {
             </CardHeader>
             <CardContent>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <a 
-                  href="/syntax" 
+                <a
+                  href="/syntax"
                   className="inline-flex items-center justify-center px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors"
                 >
                   Découvrir la syntaxe
                   <ArrowRight className="ml-2 h-4 w-4" />
                 </a>
-                <a 
-                  href="/examples" 
+                <a
+                  href="/examples"
                   className="inline-flex items-center justify-center px-6 py-3 border border-blue-600 text-blue-600 rounded-lg hover:bg-blue-50 transition-colors"
                 >
                   Voir les exemples

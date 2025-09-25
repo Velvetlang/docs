@@ -2,16 +2,16 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
-import { 
-  Code, 
-  Building, 
-  Zap, 
-  Shield, 
-  GitBranch, 
+import {
+  Code,
+  Building,
+  Zap,
+  Shield,
+  GitBranch,
   Palette,
   ArrowRight,
   CheckCircle,
-  Star
+  Star,
 } from "lucide-react";
 import Link from "next/link";
 
@@ -35,8 +35,8 @@ export default function Home() {
               </span>
             </h1>
             <p className="text-xl text-muted-foreground mb-8 max-w-2xl mx-auto">
-              Un langage de programmation conçu pour la <strong>conception-first</strong>, 
-              avec une syntaxe concise et des fonctionnalités avancées qui vous permettent 
+              Un langage de programmation conçu pour la <strong>conception-first</strong>,
+              avec une syntaxe concise et des fonctionnalités avancées qui vous permettent
               de concevoir avant de coder.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
