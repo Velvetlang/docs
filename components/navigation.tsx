@@ -22,8 +22,19 @@ export function Navigation() {
   ];
 
   return (
-    <nav className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
-      <div className="container mx-auto px-4">
+    <>
+      {/* Development Banner */}
+      <div className="bg-gradient-to-r from-orange-500 to-red-500 text-white text-center py-2 px-4">
+        <div className="container mx-auto flex items-center justify-center gap-2">
+          <div className="w-2 h-2 bg-white rounded-full animate-pulse"></div>
+          <span className="text-sm font-medium">
+            🚧 Le langage est en cours de développement - Version alpha
+          </span>
+        </div>
+      </div>
+      
+      <nav className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
+        <div className="container mx-auto px-4">
         <div className="flex h-16 items-center justify-between">
           {/* Logo */}
           <Link href="/" className="flex items-center space-x-2">
@@ -32,7 +43,7 @@ export function Navigation() {
             </div>
             <span className="font-bold text-xl">Velvet</span>
             <Badge variant="secondary" className="ml-2">
-              v1.0
+              v0.1
             </Badge>
           </Link>
 
@@ -85,5 +96,6 @@ export function Navigation() {
         )}
       </div>
     </nav>
+    </>
   );
 }
