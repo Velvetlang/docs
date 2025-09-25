@@ -1,3 +1,5 @@
+"use client";
+
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
@@ -7,10 +9,10 @@ import {
   ShoppingCart, 
   Users, 
   Database,
-  ArrowRight,
   Play,
   Copy,
-  Check
+  Check,
+  CheckCircle
 } from "lucide-react";
 import { useState } from "react";
 
